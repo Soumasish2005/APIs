@@ -4,7 +4,7 @@ This is a simple library API built using RESTful principles. It allows users to 
 
 ## 📖 Project Story
 
-This REST API was built as part of MLH GHW: Cloud. The goal was to create a robust and scalable API for managing a library of books. The project uses Node.js, Express, and MongoDB to provide a seamless experience for managing book data.
+This REST API was built as part of **MLH GHW: Cloud**. The goal was to create a robust and scalable API for managing a library of books. The project uses Node.js, Express, and MongoDB to provide a seamless experience for managing book data.
 
 ### Inspiration
 
