@@ -1,20 +1,23 @@
 {
   "name": "libraryapi",
   "version": "1.0.0",
-  "description": "This is a simple library API built using the RESTful principles",
+  "description": "A simple Library API built using RESTful principles",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "prestart": "npm install",
+    "build": "npm install --production"
   },
-  "keywords": [],
+  "keywords": ["library", "books", "REST API"],
   "author": "Soumasish Dasgupta",
   "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.12.1",
-    "nodemon": "^3.1.9"
+    "mongoose": "^8.12.1"
   }
 }
